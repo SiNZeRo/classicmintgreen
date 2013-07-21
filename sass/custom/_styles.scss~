@@ -1,0 +1,17 @@
+// This File is imported last, and will override other styles in the cascade
+// Add styles here to make changes without digging in too much
+
+html{
+	background: #fff;
+}
+body > header {
+	h1, h2{
+		a:hover, a, a:visited{
+			color: #dfffdf;
+		}
+		color: #dfffdf;
+	};
+
+	background: #fff url('http://sinzero.duapp.com/wp-content/themes/wpbt/bg.jpg') no-repeat top right;
+}
+

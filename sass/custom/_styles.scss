@@ -1,0 +1,44 @@
+// This File is imported last, and will override other styles in the cascade
+// Add styles here to make changes without digging in too much
+
+html{
+	background: #fff;
+}
+body > header {
+	h1{
+		font-size:3em;
+		a:hover, a, a:visited{
+			color: #dfffdf;
+		}
+		color: #dfffdf;
+	};
+	h2{
+		text-align:right;
+		color: #57A090;
+	}
+	background: #fff url('/images/post/2013/07/header-bg.jpg') no-repeat top right;
+}
+body{
+	max-width:1920px
+
+}
+#content .blog-index article h1
+{
+	a:hover, a, a:visited {
+		color:#57A090
+	}
+}
+
+aside.sidebar{
+	
+	h1 {
+		color:#57A090;
+	}
+	 a, a:visited {
+		text-decoration : none;
+	}
+	a:hover{
+		text-decoration : underline;
+	}
+}
+
